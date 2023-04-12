@@ -5,19 +5,27 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Deep Learning Engineer",
+    cardImage: "assets/images/experience-page/euler_motors.jpeg",
+    place: "Euler Motors",
+    time: "(August, 2022 - present)",
+    desp: "<li>Building ADAS(Advanced driver assistance systems) in pure C++ to run efficiently on low-cost edge devices (L-2 level). Equipped with Forward & rear collision warning system, automatic braking system.</li><li>Worked on developing deep learning models to generate 2D points cloud to mimick 2D lidar. </li><li>Developing a robust system with features to work under sunglare, bad weather conditions, night, camera dirt, windshield droplets like external factors.</li><li> Optimize object detection and segmentation model for low latency inference.</li> <li> Experiment with Velodyne Lidar to monocular camera sensor fusion to create automated data annotation pipeline. </li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Deep Learning Engineer",
+    cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
+    place: "Synergy Labs",
+    time: "(July, 2021 - Aug, 2022)",
+    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
+  {
+    title: "Deep Learning Intern",
+    cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
+    place: "Synergy Labs",
+    time: "(Feb, 2021 - July, 2022)",
+    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+  },
+
   {
     title: "Research Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
