@@ -4,146 +4,38 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Analytical and Computational Modelling of Go-Kart Powertrains",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Hitesh Kumar, Aditya Natu, Kunal Mathur",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "International Journal of Mechanical and Production Engineering Research and Development (IJMPERD)",
     researchYr: 2020,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/research_gokart.png",
     citation: {
       vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Hitesh Kumar, Aditya Natu, Kunal Mathur. Analytical and Computational Modelling of Go-Kart Powertrains.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "In this study, we have a unique methodology of developing two types of transmission systems for a go-kart with known specifications depicted and compared later on. The two different forms of transmission systems are viz. manual transmission (with a fixed gearbox) and semi-automatic transmission (with a belt and pulley based CVT or Continuous Variable Transmission). These designs were later validated by fatigue analysis using CAE (Computer Aided Engineering). The detailed methodology also describes how the two systems have been compared on the basis of their performance on the Go-kart in terms of acceleration (using analytical and computational approaches), intensity of the design-calculation process and several other theoretical factors. The analytical approach computes the time taken by the go-kart (with both the transmissions individually) to accelerate to its top speed using simultaneous differential equations that incorporate rolling resistance. Computational approach achieves the same purpose by physical modelling of the entire go-kart powertrain using MATLAB Simscape that solves complex dynamic equations while considering multiple derating factors. The correlation between the analytical and computational results of a particular driveline is used to validate the simulations performed and the assumptions made.",
     absbox: "absPopup1",
   },
-
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    title: "Estimation Of Surface Roughness in turning operations using Multivariate Polynomial Regression",
     authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+      "Hrishabh Jha, Ashutosh Panpalia, Devanshu Suneja, Geetanshu Ashpilya, Hitesh Kumar, and Vijay Gautam",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Advances in Industrial and Production Engineering ",
     researchYr: 2020,
-    citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
+    citebox: "popup1",
+    image: "assets/images/research-page/researchpaper_polynomial.png",
     citation: {
       vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Hrishabh Jha, Ashutosh Panpalia, Devanshu Suneja, Geetanshu Ashpilya, Hitesh Kumar, and Vijay Gautam. Estimation Of Surface Roughness in turning operations using Multivariate Polynomial Regression.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
-    absbox: "absPopup2",
-  },
-
-  {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
-    absbox: "absPopup3",
-  },
-
-  {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
-    citation: {
-      vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
-  },
-
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
-    citation: {
-      vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
+      "Surface Roughness plays a huge role in determining the durability of components. Surfaces are required to be within desired limits of roughness values to ensure high performance. Being able to predict the surface roughness without using stylus-based instruments reduces the tool changing and measuring time hence decreasing the overall machining time. The experiment suggests a statistical approach to predict the surface roughness before the machining operation based on the previous performance of the tool. The cumulative length of the chips generated was used along with the three cutting parameters, i.e. cutting speed, feed, and depth of cut to predict the surface roughness of the material depending on the number of operations performed on the lathe machine. An algorithm based on multivariate polynomial regression was used to predict the surface roughness of the material corresponding to the usage based on the experiments that were conducted on the Mild Steel Rod by using an HSS tool. This dynamic prediction will help determine the right time to change the tool according to the given machining parameters and hence increase the tool life.",
+    absbox: "absPopup1",
   },
 ];
 AOS.init();
