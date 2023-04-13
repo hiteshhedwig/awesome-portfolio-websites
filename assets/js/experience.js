@@ -5,33 +5,33 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Deep Learning Engineer",
+    title: "Deep Learning Engineer - Autonomous R&D",
     cardImage: "assets/images/experience-page/euler_motors.jpeg",
     place: "Euler Motors",
     time: "(August, 2022 - present)",
     desp: "<li>Building ADAS(Advanced driver assistance systems) in pure C++ to run efficiently on low-cost edge devices (L-2 level). Equipped with Forward & rear collision warning system, automatic braking system.</li><li>Worked on developing deep learning models to generate 2D points cloud to mimick 2D lidar. </li><li>Developing a robust system with features to work under sunglare, bad weather conditions, night, camera dirt, windshield droplets like external factors.</li><li> Optimize object detection and segmentation model for low latency inference.</li> <li> Experiment with Velodyne Lidar to monocular camera sensor fusion to create automated data annotation pipeline. </li>",
   },
   {
-    title: "Deep Learning Engineer",
+    title: "Deep Learning Engineer - R&D",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
-    place: "Synergy Labs",
+    place: "SynergyLabs",
     time: "(July, 2021 - Aug, 2022)",
-    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Built ANPR (Automatic Number Plate Detection System) pipeline for edge devices in pure Golang and python.</li><li>Developed VASD product from scratch deployed on highway location for overspeeding awareness.</li><li> Constructed pipeline for Oculii 4D radar to parse data & display it in bird-eye perspective in an opencv window </li>",
   },
   {
-    title: "Deep Learning Intern",
+    title: "Deep Learning Research Intern",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
-    place: "Synergy Labs",
+    place: "SynergyLabs",
     time: "(Feb, 2021 - July, 2022)",
-    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Worked closely with the founder in the development of the “ATCS” product (vehicle counter).</li><li>Curated dataset for fine-tuning model like MobilenetV2 & reduced its size to 2MB.</li><li>Communicated and conveyed product functionalities to Clients and improved over feedback.</li><li>Debug issues and write high quality code to fix them and maintain documentation of error resolved.</li><li>Developed UI application using PyQT to configure ATCS product.</li>",
   },
 
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Head",
+    cardImage: "assets/images/experience-page/inferno_dtu.jpeg",
+    place: "Team InfernoDTU (University Tech Team)",
+    time: "(Aug, 18 - Jan, 20)",
+    desp: "<li>Led the group of 7 members in the development of Mars Rover Prototype to compete in competitions.</li><li>Improved quality of ROS code & algorithm to significantly reduce the cost of hardware.</li><li>Built system which uses GPS waypoints for navigation and Object detection using OpenCV in real time.</li>",
   },
 ];
 
