@@ -5,66 +5,60 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Robotics: Aerial Robotics",
+    cardImage: "assets/images/education-page/robotics_perception_certi.png",
+    moocLink: "https://www.coursera.org/learn/robotics-flight/",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Introduction to Self-Driving Cars",
+    cardImage: "assets/images/education-page/intotoselfdriving_certi.png",
+    moocLink: "https://www.coursera.org/learn/intro-self-driving-cars/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Internet History, Technology, and Security",
+    cardImage: "assets/images/education-page/internetstuff_certi.png",
+    moocLink: "https://www.coursera.org/learn/internet-history",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Data Visualization",
+    cardImage: "assets/images/education-page/data_viz.png",
+    moocLink: "https://www.kaggle.com/learn/data-visualization",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "AWS Machine Learning Foundations Course",
+    cardImage: "assets/images/education-page/udacity_aws.png",
+    moocLink: "https://www.udacity.com/course/aws-machine-learning-foundations--ud065",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Version Control with Git",
+    cardImage: "assets/images/education-page/version_control.png",
+    moocLink: "https://www.udacity.com/course/version-control-with-git--ud123",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Introduction to Psychology",
+    cardImage: "assets/images/education-page/intro_to_psy.png",
+    moocLink: "https://www.coursera.org/learn/introduction-psych",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Programming for Everybody (Getting Started with Python)",
+    cardImage: "assets/images/education-page/python_certi.png",
+    moocLink: "https://www.coursera.org/learn/python",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "Visual Perception for Self-Driving Cars - (ongoing)",
+    cardImage: "assets/images/education-page/visual_perception.jpeg",
     moocLink:
       "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Robotics: Perception -(ongoing)",
+    cardImage: "assets/images/education-page/roboticsperception.jpeg",
+    moocLink: "https://www.coursera.org/learn/robotics-perception",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "Build a Modern Computer from First Principles: From Nand to Tetris -(ongoing)",
+    cardImage: "assets/images/education-page/nand2tetris.jpeg",
+    moocLink: "https://www.coursera.org/learn/build-a-computer",
   },
 ];
 
