@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/euler_motors.jpeg",
     place: "Euler Motors",
     time: "(August, 2022 - present)",
-    desp: "<li>Building ADAS(Advanced driver assistance systems) in pure C++ to run efficiently on low-cost edge devices (L-2 level). Equipped with Forward & rear collision warning system, automatic braking system.</li><li>Worked on developing deep learning models to generate 2D points cloud to mimick 2D lidar. </li><li>Developing a robust system with features to work under sunglare, bad weather conditions, night, camera dirt, windshield droplets like external factors.</li><li> Optimize object detection and segmentation model for low latency inference running 35ms on edge device in realtime.</li> <li> Experiment with Velodyne Lidar to monocular camera sensor fusion to create automated data annotation pipeline. </li>",
+    desp: "<li>Building ADAS(Advanced driver assistance systems) in pure C++ to run efficiently on low-cost edge devices (L-2 level). Equipped with Forward & rear collision warning system, automatic braking system.</li><li>Wrote and maintained high quality production level documented C++ code (ROS) for ADAS system to achieve inference under 70ms and generate alerts at 10Hz thus reduced hardware cost by 120%. </li><li>Developing a robust system with features to work under sunglare, bad weather conditions, night, camera dirt, windshield droplets like external factors.</li><li> Optimize object detection and segmentation model for low latency inference running 35ms on edge device in realtime.</li> <li> Experiment with Velodyne Lidar to monocular camera sensor fusion to create automated data annotation pipeline. </li>",
   },
   {
     title: "Deep Learning Engineer - R&D",
