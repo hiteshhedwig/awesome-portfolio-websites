@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Mars Rover",
-    cardImage: "assets/images/inferno.gif",
+    cardImage: "assets/images/inferoligh.gif",
     description: "Team InfernoDTU built mars protoype rover ",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://github.com/hiteshhedwig/rover_ws",
