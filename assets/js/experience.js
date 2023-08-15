@@ -1,15 +1,52 @@
 AOS.init();
 
+
+
 //  Work experience cards
 
 const experiencecards = document.querySelector(".experience-cards");
+
+
+const addCVButton = () => {
+  const cvButton = `
+      <div style="text-align:center; margin-bottom:20px;">
+          <a href="assets/CV_HITESH_KUMAR.pdf" target="_blank" rel="noopener noreferrer">
+              <button style="
+                  padding:10px 20px;
+                  font-size:16px;
+                  cursor:pointer;
+                  background-color: #bb86fc; 
+                  border: none;
+                  border-radius: 4px;
+                  color: white;
+                  text-transform: uppercase; /* Makes text UPPERCASE */
+                  letter-spacing: 1px; /* Spreads out letters slightly */
+                  transition: 0.3s; /* Transition for hover effects */
+                  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Slight shadow */
+              &:hover {
+                  background-color: #45a049; /* Darker green on hover */
+                  box-shadow: 0 6px 8px rgba(0,0,0,0.2); /* Slight shadow on hover */
+              }
+              &:active {
+                  transform: scale(0.98); /* Slightly reduces size when active (clicked) */
+              }">Here's my CV</button>
+          </a>
+      </div>
+  `;
+  experiencecards.insertAdjacentHTML('beforebegin', cvButton);
+}
+
+
+// Call the function to add the CV button to your webpage
+addCVButton();
+
 const exp = [
   {
     title: "Deep Learning Engineer - Autonomous R&D",
     cardImage: "assets/images/experience-page/euler_motors.jpeg",
     place: "Euler Motors",
     time: "(August, 2022 - present)",
-    desp: "<li>Building ADAS(Advanced driver assistance systems) in pure C++ to run efficiently on low-cost edge devices (L-2 level). Equipped with Forward & rear collision warning system, automatic braking system.</li><li>Wrote and maintained high quality production level documented C++ code (ROS) for ADAS system to achieve inference under 70ms and generate alerts at 10Hz thus reduced hardware cost by 120%. </li><li>Developing a robust system with features to work under sunglare, bad weather conditions, night, camera dirt, windshield droplets like external factors.</li><li> Optimize object detection and segmentation model for low latency inference running 35ms on edge device in realtime.</li> <li> Maintain documentation of code and error resolved in detail to save 10+ hours for fellow teammates. </li>",
+    desp: "<li>Played a pivotal role in building ADAS (Advanced driver assistance systems) (L-2 level) software in pure C++ to run efficiently on Nvidia's Jetson Nano. Our team implemented features such as a forward and rear collision warning system and an automatic braking system.</li><li>Took initiative in writing and maintaining high-quality, production-level documented C++ code (ROS) for the ADAS system. Our collective efforts ensured inference times under 70ms, alert generation at 10Hz, and brought down hardware costs by 120%. </li><li>Trained and optimized lightweight object detection and segmentation models for low-latency performance on jetson nano embedded hardware, achieving model size reduction by over 60% and 50%, respectively.</li><li> Spearheaded the creation of a model versioning system from scratch, fostering improved model deployment and management practices for the whole team.</li> <li> Consistently maintained detailed documentation of code and resolved errors, saving over 10 hours for my fellow teammates and ensuring smoother project flow. </li>",
   },
   {
     title: "Deep Learning Engineer - R&D",
