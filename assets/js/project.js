@@ -30,6 +30,22 @@ const projects = [
     Githublink: "https://github.com/hiteshhedwig/rover_ws",
   },
   {
+    title: "Visual Odo",
+    cardImage: "assets/images/project-page/optical_flow.gif",
+    description: "an attempt to simplify and learn visual odometry from scratch",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://github.com/hiteshhedwig/visual_odo_max",
+    Githublink: "https://github.com/hiteshhedwig/visual_odo_max",
+  },
+  {
+    title: "SfM clean",
+    cardImage: "assets/images/project-page/3d_sfm.jpeg",
+    description: " An extensive application to manage your todos better and quick",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://github.com/hiteshhedwig/SfM_clean",
+    Githublink: "https://github.com/hiteshhedwig/SfM_clean",
+  },
+  {
     title: "Sparkle CLI TODO",
     cardImage: "assets/images/project-page/sparkle.png",
     description: " An extensive application to manage your todos better and quick",

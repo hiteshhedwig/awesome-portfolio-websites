@@ -59,7 +59,7 @@ const exp = [
     title: "Deep Learning Research Intern",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
     place: "SynergyLabs",
-    time: "(Feb, 2021 - July, 2022)",
+    time: "(Feb, 2021 - July, 2021)",
     desp: "<li>Worked closely with the founder in the development of the “ATCS” product (vehicle counter).</li><li>Curated dataset for fine-tuning model like MobilenetV2 & reduced its size to 2MB.</li><li>Communicated and conveyed product functionalities to Clients and improved over feedback.</li><li>Debug issues and write high quality code to fix them and maintain documentation of error resolved.</li><li>Developed UI application using PyQT to configure ATCS product.</li>",
   },
 
