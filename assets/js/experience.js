@@ -46,14 +46,14 @@ const exp = [
     cardImage: "assets/images/experience-page/euler_motors.jpeg",
     place: "Euler Motors",
     time: "(August, 2022 - present)",
-    desp: "<li>Played a pivotal role in building ADAS (Advanced driver assistance systems) (L-2 level) software in pure C++ to run efficiently on Nvidia's Jetson Nano. Our team implemented features such as a forward and rear collision warning system and an automatic braking system.</li><li>Took initiative in writing and maintaining high-quality, production-level documented C++ code (ROS) for the ADAS system. Our collective efforts ensured inference times under 70ms, alert generation at 10Hz, and brought down hardware costs over 65%. </li><li>Trained and optimized lightweight object detection and segmentation models for low-latency performance on jetson nano embedded hardware, achieving model size reduction by over 60% and 50%, respectively.</li><li> Spearheaded the creation of a model versioning system from scratch, fostering improved model deployment and management practices for the whole team.</li> <li> Consistently maintained detailed documentation of code and resolved errors, saving over 10 hours for my fellow teammates and ensuring smoother project flow. </li>",
+    desp: "<li>Key contributor in building real-time ADAS (Advanced Driver Assistance Systems) using pure C++; optimized for Nvidia Jetson Nano. Implemented forward/rear collision warnings and automatic braking system.</li><li>Led raw data curation and established semi-automatic data annotation system; expedited team processes, saving over two days. </li><li>Initiated and maintained production-level documented C++ code (ROS) for ADAS system; achieved <100ms inference times using GPU, 10Hz alert generation, and reduced hardware costs by over 65%</li><li> Spearheaded the creation of a model versioning system from scratch, fostering improved model deployment and management practices for the whole team.</li> <li>Trained and optimized lightweight object detection and segmentation models; achieved over 60% and 50% model size reduction, enhancing low-latency performance.</li>",
   },
   {
     title: "Deep Learning Engineer - R&D",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
     place: "SynergyLabs",
     time: "(July, 2021 - Aug, 2022)",
-    desp: "<li>Trained and tailored classification & object detection models with an appropriate combination of data augmentation for various problem statements. Created API (FASTAPI / Flask) for model deployment on cloud.</li><li>Built ANPR (Automatic Number Plate Detection System) pipeline for edge devices in pure Golang and python.</li><li>Developed VASD product from scratch deployed on highway location for overspeeding awareness.</li><li> Constructed pipeline for Oculii 4D radar to parse data & display it in bird-eye perspective in an opencv window </li>",
+    desp: "<li>Trained and customized classification & object detection models with data augmentation; achieved 14% increase in performance.</li><li>Designed and implemented automatic number plate detection pipeline in Python to flag overspeeding vehicle.</li><li>Developed Vehicle Detection System deployed on highways; attained <6% speed error in detection.</li><li>Co-developed attention-based OCR model for license plates; achieved over 95% accuracy on standard plates.</li>",
   },
   {
     title: "Deep Learning Research Intern",
@@ -66,10 +66,19 @@ const exp = [
   {
     title: "Software Head",
     cardImage: "assets/images/experience-page/inferno_dtu.jpeg",
-    place: "Team InfernoDTU (University Tech Team)",
-    time: "(Aug, 18 - Jan, 20)",
-    desp: "<li>Led the group of 7 members in the development of Mars Rover Prototype to compete in competitions.</li><li>Improved quality of ROS code & algorithm to significantly reduce the cost of hardware.</li><li>Built system which uses GPS waypoints for navigation and Object detection using OpenCV in real time.</li>",
+    place: "Team InfernoDTU [Mars Rover](University Tech Team)",
+    time: "(Jan, 18 - Jan, 19)",
+    desp: "<li>Led autonomous tech team (5+ members) in developing Mars Rover Prototype's autonomous features for competitive events.</li><li>Utilized ROS in C++/Python for remote rover navigation.</li><li>Implemented traditional computer vision techniques using OpenCV for obstacle detection and collision avoidance.</li>",
   },
+
+  {
+    title: "Team member",
+    cardImage: "assets/images/experience-page/inferno_dtu.jpeg",
+    place: "Team InfernoDTU [GoKart](University Tech Team)",
+    time: "(May, 17 - Jan, 18)",
+    desp: "<li>Developed TensorFlow-based CNN model for animal detection on roads.</li><li>Designed real-time pedestrian detection algorithm using OpenCV for Raspberry Pi 4b.</li><li>Enhanced lane detection algorithm for improved performance.</li>",
+  },
+
 ];
 
 const showCards2 = () => {
