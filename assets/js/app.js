@@ -29,6 +29,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hiteshhedwig.github.io/hedwig_explains/" target="_blank">Blogs</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hitesh.one/hedwig-gallery/gallery/" target="_blank">PhotoGallery</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
