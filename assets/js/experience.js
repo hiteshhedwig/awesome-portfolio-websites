@@ -38,7 +38,7 @@ const addCVButton = () => {
 
 
 // Call the function to add the CV button to your webpage
-addCVButton();
+// addCVButton();
 
 const exp = [
   {
@@ -46,40 +46,31 @@ const exp = [
     cardImage: "assets/images/experience-page/euler_motors.jpeg",
     place: "Euler Motors",
     time: "(August, 2022 - present)",
-    desp: "<li>Key contributor in building real-time ADAS (Advanced Driver Assistance Systems) using pure C++; optimized for Nvidia Jetson Nano. Implemented forward/rear collision warnings and automatic braking system.</li><li>Led raw data curation and established semi-automatic data annotation system; expedited team processes, saving over two days. </li><li>Initiated and maintained production-level documented C++ code (ROS) for ADAS system; achieved <100ms inference times using GPU, 10Hz alert generation, and reduced hardware costs by over 65%</li><li> Spearheaded the creation of a model versioning system from scratch, fostering improved model deployment and management practices for the whole team.</li> <li>Trained and optimized lightweight object detection and segmentation models; achieved over 60% and 50% model size reduction, enhancing low-latency performance.</li>",
+    desp: "<li>Key contributor in building real-time ADAS (Advanced Driver Assistance Systems) using pure C++; optimized for Nvidia Jetson Nano and Quectel SC600 infotainment system. Implemented forward collision warning with over 80% precision normally and over 85% precision at high speeds for commercial electric vehicles.</li><li>Built an ultralight (600kb) classification model using combined center loss and cross-entropy loss, achieving over 95% accuracy for traffic lights in the wild.</li><li>Trained and optimized lightweight object detection with mixed precision training and segmentation models; achieved over 60% and 50% model size reduction, enhancing low-latency performance.</li><li>Collaborated in building NVA (Night Vision Assist) system using low light 850 band IR camera assisted with IR booster for forward collision algorithm; improved visibility and safety on foggy nights.</li>",
   },
   {
     title: "Deep Learning Engineer - R&D",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
     place: "SynergyLabs",
     time: "(July, 2021 - Aug, 2022)",
-    desp: "<li>Trained and customized classification & object detection models with data augmentation; achieved 14% increase in performance.</li><li>Designed and implemented automatic number plate detection pipeline in Python to flag overspeeding vehicle.</li><li>Developed Vehicle Detection System deployed on highways; attained <6% speed error in detection.</li><li>Co-developed attention-based OCR model for license plates; achieved over 95% accuracy on standard plates.</li>",
+    desp: "<li>Trained and customized classification & object detection models with data augmentation; achieved 14% increase in performance on IoT device.</li><li>Designed and implemented automatic number plate detection pipeline in Python to flag overspeeding vehicles for safe urban traffic monitoring.</li><li>Developed Vehicle Detection System deployed on highways; attained less than 6% speed error in detection.</li>",
   },
   {
     title: "Deep Learning Research Intern",
     cardImage: "assets/images/experience-page/synergylabs_full.jpeg",
     place: "SynergyLabs",
     time: "(Feb, 2021 - July, 2021)",
-    desp: "<li>Worked closely with the founder in the development of the “ATCS” product (vehicle counter).</li><li>Curated dataset for fine-tuning model like MobilenetV2 & reduced its size to 2MB.</li><li>Communicated and conveyed product functionalities to Clients and improved over feedback.</li><li>Debug issues and write high quality code to fix them and maintain documentation of error resolved.</li><li>Developed UI application using PyQT to configure ATCS product.</li>",
+    desp: "<li>Collaborated with the founder in developing 'Automatic Traffic Counter System (ATCS)'; deployed across 300+ locations.</li><li>Curated dataset for MobilenetV2 fine-tuning; reduced model size to 2MB, achieving 30% reduction.</li><li>Developed ATCS product configuration UI with PyQT; reduced manual effort by 3x.</li>",
   },
-
   {
     title: "Software Head",
     cardImage: "assets/images/experience-page/inferno_dtu.jpeg",
-    place: "Team InfernoDTU [Mars Rover](University Tech Team)",
-    time: "(Jan, 18 - Jan, 19)",
-    desp: "<li>Led autonomous tech team (5+ members) in developing Mars Rover Prototype's autonomous features for competitive events.</li><li>Utilized ROS in C++/Python for remote rover navigation.</li><li>Implemented traditional computer vision techniques using OpenCV for obstacle detection and collision avoidance.</li>",
+    place: "Inferno DTU: Mars Rover Team",
+    time: "(2017 - 2019)",
+    desp: "<li>Led a multidisciplinary team for developing rovers for Mars Rover competitions globally. Achievements include 6th Rank in IRC (Indian Rover Challenge).</li>",
   },
-
-  {
-    title: "Team member",
-    cardImage: "assets/images/experience-page/inferno_dtu.jpeg",
-    place: "Team InfernoDTU [GoKart](University Tech Team)",
-    time: "(May, 17 - Jan, 18)",
-    desp: "<li>Developed TensorFlow-based CNN model for animal detection on roads.</li><li>Designed real-time pedestrian detection algorithm using OpenCV for Raspberry Pi 4b.</li><li>Enhanced lane detection algorithm for improved performance.</li>",
-  },
-
 ];
+
 
 const showCards2 = () => {
   let output = "";
